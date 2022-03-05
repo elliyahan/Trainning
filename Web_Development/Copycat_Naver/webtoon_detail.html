@@ -1,0 +1,578 @@
+<!-- 네이버 웹툰 디테일 페이지 실습 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>네이버 웹툰 상세</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="webtoon_header">
+        <div class="webtoon_header_top">
+            <div class="webtoon_container">
+                <div class="wedtoon_header_left">
+                    <h2><a href="#">만화</a></h2>
+                    <em class="bar"></em>
+                    <h3><a href="#">웹소설</a> </h3>
+                    <div class="webtoon_header_input_wrap">
+                        <input type="text">
+                        <button type="button" class="btn_search"></button>
+                    </div>
+                </div>
+                <div class="wedtoon_header_right">
+                    <a href="#" class="btn_login">로그인</a>
+                    <button type="button" class="btn_menu"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="webtoon_header_nav">
+            <div class="webtoon_container">
+                <nav>
+                    <ul>
+                        <li><a href="webtoon.html">홈</a></li>
+                        <li class="on"><a href="webtoon_detail.html">웹툰</a></li>
+                        <li><a href="#">베스트 도전</a></li>
+                        <li><a href="#">도전 만화</a></li>
+                    </ul>
+                </nav>
+                <div class="webtoon_header_link_wrap">
+                    <i class="icon_ex_mark"></i>
+                    <a href="#">온천마을 판타지 로맨스 <모락모락 왕세자님></a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <main role="main" id="webtoon_main" class="webtoon_detail">
+        <nav class="nav_1">
+            <div class="webtoon_container">
+                <ul>
+                    <li><a href="#">요일별</a></li>
+                    <li><a href="#">장르별</a></li>
+                    <li><a href="#">작품별</a></li>
+                    <li><a href="#">작가별</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="webtoon_container">
+            <div class="webtoon_main_left">
+                <nav class="nav_2">
+                    <ul>
+                        <li class="on"><a href="#">요일전체</a></li>
+                        <li><a href="#">월요웹툰</a></li>
+                        <li><a href="#">화요웹툰</a></li>
+                        <li><a href="#">수요웹툰</a></li>
+                        <li><a href="#">목요웹툰</a></li>
+                    </ul>
+                </nav>
+
+                <div id="webtoon_this_month">
+                    <h2>이달의 신규 웹툰</h2>
+                    <ul class="webtoon_this_lists">
+                        <li class="webtoon_this_list">
+                            <div class="this_img_wrap webtoon_border">
+                                <img src="https://via.placeholder.com/150">
+                                <span class="new_mark">new</span>
+                            </div>
+                            <h3>아찔한 전남편</h3>
+                            <span class="author">별규, 기뭉 / 여백</span>
+                            <p>국민 여배우 하은, 여배우 전성기 시절 남편과 첫눈에 반해서 결혼했고</p>
+                        </li>
+                        <li class="webtoon_this_list">
+                            <div class="this_img_wrap webtoon_border">
+                                <img src="https://via.placeholder.com/150">
+                                <span class="new_mark">new</span>
+                            </div>
+                            <h3>아찔한 전남편</h3>
+                            <span class="author">별규, 기뭉 / 여백</span>
+                            <p>국민 여배우 하은, 여배우 전성기 시절 남편과 첫눈에 반해서 결혼했고</p>
+                        </li>
+                        <li class="webtoon_this_list">
+                            <div class="this_img_wrap webtoon_border">
+                                <img src="https://via.placeholder.com/150">
+                                <span class="new_mark">new</span>
+                            </div>
+                            <h3>아찔한 전남편</h3>
+                            <span class="author">별규, 기뭉 / 여백</span>
+                            <p>국민 여배우 하은, 여배우 전성기 시절 남편과 첫눈에 반해서 결혼했고</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="webtoon_banner"></div>
+
+                <div id="webtoon_total_day">
+                    <div class="webtoon_total_title_wrap">
+                        <h2>요일별 전체 웹툰</h2>
+                        <ul>
+                            <li><a href="#">인기순</a></li>
+                            <li><a href="#">업데이트순</a></li>
+                            <li><a href="#">조회순</a></li>
+                            <li><a href="#">별점순</a></li>
+                        </ul>
+                    </div>
+                    <ul class="webtoon_day_lists">
+                        <li class="webtoon_day_list active">
+                            <span>월요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>화요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>수요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>목요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>금요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>토요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="webtoon_day_list">
+                            <span>일요웹툰</span>
+                            <ul class="webtoon_lists">
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                                <li class="webtoon_list">
+                                    <img src="https://via.placeholder.com/84x90">
+                                    <h3>참교육</h3>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="webtoon_main_right">
+                <div class="webtoon_challenge_wrap webtoon_border">
+                    <h3><span>새로운 </span>베스트 도전만화</h3>
+                    <img src="https://via.placeholder.com/202x110">
+                    <div class="webtoon_info">
+                        <div class="webtoon_title_wrap">
+                            <h4><a href="#">돈벌다 만난 사이</a></h4>
+                            <a href="#">twinee2018</a>
+                        </div>
+                        <p>
+                            <a href="#">회사에서 돈 벌다 만나서 함께하는 서로 다른 성향의 두 여자 이야기</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="webtoon_banner_type_1 webtoon_border"></div>
+
+                <div class="webtoon_popular webtoon_border">
+                    <div class="webtoon_popular_header">
+                        <h2>인기급상승 만화</h2>
+                    </div>
+                    <ul class="webtoon_popular_tabs">
+                        <li class="tab active">
+                            <span>인기순</span>
+                        </li>
+                        <li class="tab">
+                            <span>업데이트순</span>
+                        </li>
+                    </ul>
+
+                    <div class="webtoon_popular_ranking">
+                        <ol>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">1</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">2</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status up"></div>
+                                    <span class="number">1</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">3</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status down"></div>
+                                    <span class="number">1</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">4</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">5</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">6</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">7</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">8</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">9</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank">10</span>
+                                    <a href="#">급식아빠-18화 죽은지 얼마나 됐어요?</a>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="webtoon_popular webtoon_border">
+                    <div class="webtoon_popular_header">
+                        <h2>30대 실시간 인기만화</h2>
+                    </div>
+                    <ul class="webtoon_popular_tabs">
+                        <li class="tab">
+                            <span>남자</span>
+                        </li>
+                        <li class="tab active">
+                            <span>여자</span>
+                        </li>
+                    </ul>
+
+                    <div class="webtoon_popular_ranking">
+                        <ol>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank rank_custom">1</span>
+                                    <div class="img_wrap">
+                                        <img src="https://via.placeholder.com/30x33">
+                                        <div class="webtoon_info">
+                                            <a href="#">헬퍼 2 : 킬베로스</a>
+                                            <span class="author">삭</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank rank_custom">2</span>
+                                    <div class="img_wrap">
+                                        <img src="https://via.placeholder.com/30x33">
+                                        <div class="webtoon_info">
+                                            <a href="#">헬퍼 2 : 킬베로스</a>
+                                            <span class="author">삭</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank rank_custom">3</span>
+                                    <div class="img_wrap">
+                                        <img src="https://via.placeholder.com/30x33">
+                                        <div class="webtoon_info">
+                                            <a href="#">헬퍼 2 : 킬베로스</a>
+                                            <span class="author">삭</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank rank_custom">4</span>
+                                    <div class="img_wrap">
+                                        <img src="https://via.placeholder.com/30x33">
+                                        <div class="webtoon_info">
+                                            <a href="#">헬퍼 2 : 킬베로스</a>
+                                            <span class="author">삭</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="rank_content">
+                                    <span class="rank rank_custom">5</span>
+                                    <div class="img_wrap">
+                                        <img src="https://via.placeholder.com/30x33">
+                                        <div class="webtoon_info">
+                                            <a href="#">헬퍼 2 : 킬베로스</a>
+                                            <span class="author">삭</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="rank_box">
+                                    <!-- status stay, status up, status down -->
+                                    <div class="status stay"></div>
+                                    <span class="number">0</span>
+                                </div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="webtoon_banner_type_2 webtoon_border"></div>
+                <div class="webtoon_banner_type_2 webtoon_border"></div>
+                <div class="webtoon_banner_type_2 webtoon_border"></div>
+                <div class="webtoon_banner_type_2 webtoon_border"></div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer id="webtoon_footer">
+        <div class="webtoon_container">
+            <div class="webtoon_footer_wrap">
+                <div class="webtoon_footer_left">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                    <span>naver corp</span>
+                </div>
+                <div class="webtoon_footer_right">
+                    <ul>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이용약관</a></li>
+                    </ul>
+                    <span>naver webtoon corp</span>
+                </div>
+            </div>
+            <p class="webtoon_footer_paragraph">본 콘텐츠의 저작권은 저자 또는 제공자에 있으며, 이를 무단 이용하는 경우 저작권법 등에 따라 법적 책임을 질 수 있습니다.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
