@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+
+    /* min-height: 100%; */
+    
+}
+
+
+
+body{
+    color: black;
+
+    /* min-height: 100%; */
+
+    
+}
+
+
+h1, h2, h3, h4, h5, h6, p ,i{
+    font-weight: 400;
+}
+
+
+li {
+    list-style: none;
+}
+
+a, a:hover {
+    color: inherit;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #000;
+}
+
+img {
+    vertical-align: middle;
+}
+
+span {
+    display: block;
+}
+
+/* body 시작 */
+
+#body_wrapper {
+    /* background-color: #1b6233; */
+    
+    /* padding-top: 100px; */
+    /* padding-bottom: 150px; 푸터 높이 */
+
+    
+    
+    min-height: 100%;
+    min-width: 100%;
+    position: relative;
+
+}
+
+
+
+#header {
+    /* float: ; */
+    background: white;
+    width: 100%;
+    height: 90px;
+
+    padding-top: 35px;
+
+    position: absolute;
+
+    font-size: 22px;
+
+    /* border: solid 1px; */
+    
+}
+
+#header .buttons div a {
+    color: black;
+
+}
+
+/*헤더 왼쪽 */
+
+#header .buttons .left_menu {
+    width: 400px;
+    height: 50px;
+
+    float: left;
+
+    /* border: solid 1px; */
+
+
+}
+
+#header .buttons .left_menu a {
+
+    
+
+    margin-left: 200px;
+
+    /* border: solid 1px; */
+
+}
+
+/*모달*/
+#m_menu {
+    display: none;
+
+    float: left;
+
+    font-size: 20px;
+
+    text-align: left;
+
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: #ddd;
+    z-index: 1002;
+    box-sizing: border-box;
+
+    padding-top: 10px;
+    padding-left: 10px;
+
+    
+    
+}
+
+    #m_menu .deps1 {
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+        #m_menu .deps1 > li {
+            padding: 0 20px;
+            margin-bottom: 60px;
+        }
+
+            #m_menu > li > a {
+                display: block;
+                width: 100%;
+
+                text-align: left;
+                
+                font-weight: bolder;
+                color: #000;
+                padding: 12px 20px;
+                box-sizing: border-box;
+                border-bottom: 1px solid #ddd;
+            }
+
+                #m_menu .deps1 > li > a:hover {
+                    color: #999;
+                }
+
+                #m_menu .close_icon { 
+                    cursor: pointer;
+                }
+
+
+
+#m_fade {
+    display: none;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+    #m_fade .close {
+        display: block;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+/* 헤더 오른쪽*/
+
+
+
+#header .buttons .right_login {
+    width: 200px;
+    height: 50px;
+    float: right;
+    
+    /* border: solid 1px; */
+    
+}
+
+
+#header .buttons .right_login a {
+    
+    width: 50px;
+    height: 50px;
+
+    
+    /* border: solid 1px; */
+
+    
+}
+
+
+
+
+/* 메인 콘텐츠 영역*/
+
+
+#body_content {
+    /* height: 600px; */
+    
+    background: white;
+    text-align: center;
+    
+    font-size: 22px;
+
+    /* background-color: yellow; */
+
+   
+    padding-top: 150px;
+    
+    
+}
+
+#body_content .login_form {
+
+
+    /* display: inline-block; */
+
+
+    /* width: 400px; */
+
+    padding-top: 50px;
+
+    /* border:  solid 1px; */
+}
+
+.login_form {
+    position:absolute;
+    width:400px;
+    height:400px;
+    /* padding: 30px, 20px; */
+    background-color:#FFFFFF;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+  }
+  
+  .loginForm h2{
+    text-align: center;
+    margin: 30px;
+  }
+  
+  .id_form{
+    border-bottom: 2px solid #adadad;
+    margin: 30px;
+    padding: 10px 10px;
+  }
+  
+  .pass_form{
+    border-bottom: 2px solid #adadad;
+    margin: 30px;
+    padding: 10px 10px;
+  }
+  
+  .id {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+  }
+  
+  .pw {
+    width: 100%;
+    border:none;
+    outline:none;
+    color: #636e72;
+    font-size:16px;
+    height:25px;
+    background: none;
+  }
+  
+  .btn {
+    position:relative;
+    left:40%;
+    transform: translateX(-50%);
+    margin-bottom: 40px;
+    width:80%;
+    height:40px;
+    background: linear-gradient(125deg,#1b6233, #adadad, #FFFFFF);
+    background-position: left;
+    background-size: 200%;
+    color:white;
+    font-weight: bold;
+    border:none;
+    cursor:pointer;
+    transition: 0.4s;
+    display:inline;
+  }
+  
+  .btn:hover {
+    background-position: right;
+  }
+
+
+  
+
+  /*푸터*/
+
+
+#footer {
+    width: 100%;
+    /* height: 80px; */
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    /* margin-bottom: 0; */
+
+    /* padding-top: 20px; */
+
+    color: white;
+
+    font-size: 10px;
+
+
+    background-color: #1b6233;
+
+    /* border: solid 1px;     */
+}
+
+
+#footer .ft_logo {
+    height: 50px;
+    /* width: 400px; */
+    float: left;
+
+    padding-top: 5px;
+
+    /* border:  solid 1px; */
+}
+
+
+#footer .ft_logo div img {
+    
+    height: 35px;
+
+    margin-left: 100px;
+
+    float: left;
+    
+    object-fit: cover;
+
+    /* border: solid 1px; */
+}
+
+
+#footer .ft_detail  {
+
+    /* border:  solid 1px; */
+
+    margin-top: 5px;
+    margin-right: 100px;
+
+    float: right;
+
+    text-align: right;
+    color: white;
+}

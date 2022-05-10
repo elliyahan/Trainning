@@ -1,0 +1,76 @@
+<!-- 마을을 만나다 세부 페이지 -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="Chrome">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>마을을 만나다 세부 페이지</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/contact_style.css">
+</head>
+
+<body>
+
+    <header id="header">
+        <div class="contact_container">
+            <div class="header_top">
+                <a href="main.html">
+                <img src="img/logo.png">
+                </a>
+                <a class="sub" href="won.html">우리동네 생활기록가</a>
+                <div class="header_right">
+                    <a class="login" href="login.html">login</a>
+                    <a class="logout" href="#">logout</a>
+                    <div class="search_wrap">
+                        <input type="text" placeholder="search">
+                        <button type="button" id="btn_search" onclick="location.href='search.html'"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main role="main" id="contact_detail_main">
+        <div class="info">
+            <div class="contact_container">
+                <img class="info_img" src="img/info.png">
+            </div>
+        </div>
+        <div class="container">
+            <div class="menu_lists">
+                <a href="won.html">원도심</a>
+                <a href="attend.html">마을을 다니다</a>
+                <a href="contact.html" class="active">마을을 만나다</a>
+                <a href="we.html">우리들 이야기</a>
+            </div>
+
+            <div class="sub"></div>
+            <div class="content"></div>
+            <div class="btn_wrap">
+                <a href="#" class="btn_prev">이전</a>
+				<a href="#" class="btn_modify">수정</a>
+            </div>
+        </div>
+    </main>
+
+    <footer id="footer" class="detail">
+        <div class="contact_container">
+            <img src="img/corp.gif">
+
+            <div class="ft_detail">
+                <h4>느티나무도서관재단 | 경기도 용인시 수지구 수풍로 116번길 22</h4>
+                <h4>대표자(이사장))박영숙 | 사업자등록번호 135-82-10547 | 이메일 office@neutinamu.org</h4>
+                <h4>도서관 031-262-3494 | 재단사무국 031-262-9124 | 팩스 031-262-6124</h4>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

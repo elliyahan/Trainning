@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>느티나무도서관재단</title>
+
+    <link rel="stylesheet" type="text/css" href="css/login_style.css">
+
+</head>
+<body>
+
+    <div id="body_wrapper">
+
+    <header id="header">
+
+        <nav class="buttons">
+        
+            
+            <div class="left_menu">
+                <a href="javascript:void(0)" onclick="document.getElementById('m_menu').style.display = 'block';
+                document.getElementById('m_fade').style.display = 'block' ">메뉴</a>
+                    
+                    
+            </div>
+
+                <div class="right_login">
+                    <a href="login.html"><link rel="stylesheet" href="login.html">login</a>
+                </div>
+    </nav>
+
+    
+    </header>
+
+    
+
+    <div id="body_content">
+
+            <form action="index.html" method="post" class="login_form">
+                
+                <div class="id_form">
+                  <input type="text" class="id" placeholder="ID">
+                </div>
+                <div class="pass_form">
+                  <input type="password" class="pw" placeholder="PW">
+                </div>
+                <button type="button" class="btn" onclick="button()">
+                  로그인
+                </button>
+                <script>
+                    let button = () => {
+                      alert('login Button !')
+                  }
+                </script>
+                
+              </form>
+            
+              <div id="m_menu">
+                <i class="close_icon" href="javascript:void(0)" onclick="document.getElementById('m_menu').style.display = 'none'; 
+                document.getElementById('m_fade').style.display = 'none'">X</i>
+                
+                <ul class="deps1">
+                    <li><a href="won.html">우리동네 생활기록가</a></li>
+                    <li><a href="#">다른 프로젝트</a></li>
+                    <li><a href="#">또 다른 프로젝트</a></li>
+                </ul>
+            </div>
+        
+            <div id="m_fade">
+                <a class="close" href="javascript:void(0)" onclick="document.getElementById('m_menu').style.display = 'none'; document.getElementById('m_fade').style.display = 'none'" title="닫기">
+                </a>
+            </div>
+
+          
+
+    </div>
+
+
+
+    <footer id="footer">
+
+
+        
+        <div class="ft_logo">
+            <div class="ft_logos">
+                <a href="main.html"><img src="img/corp.gif"></a>
+            </div>
+            
+        </div>
+
+        <div class="ft_detail">
+            <h4>느티나무도서관재단 | 경기도 용인시 수지구 수풍로 116번길 22</h4>
+            <h4>대표자(이사장))박영숙 | 사업자등록번호 135-82-10547 | 이메일 office@neutinamu.org</h4>
+            <h4>도서관 031-262-3494 | 재단사무국 031-262-9124 | 팩스 031-262-6124</h4>
+        </div>
+
+    </footer>
+
+
+
+</div>
+
+
+
+
+
+</body>
+
+
+
+</html>
