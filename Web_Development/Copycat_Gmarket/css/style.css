@@ -1,0 +1,315 @@
+header {
+    height: 113px;
+    border-bottom: 1px solid green;
+}
+
+.inner {
+    width: 1200px;
+    margin: auto;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left .logo {
+    float: left;
+    margin-top: 22.5px;
+    margin-right: 25px;
+}
+
+.header-left .logo a {
+    display: block;
+    background: url('img/sprite__common.png') no-repeat 0 -152px;
+    width: 255px;
+    height: 68px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.header-left .search-area {
+    float: left;
+    border: 2px solid #067dfd;
+    height: 48px;
+    border-radius: 24px;
+    width: 500px;
+    margin-top: 32.5px;
+}
+
+.header-left .search-area .search-box {
+    height: 48px;
+    box-sizing: border-box;
+    padding: 8px;
+    position: relative;
+}
+
+
+/* input 태그에서 특히 속성 선택자를 많이 쓴다. */
+
+.header-left .search-area .search-box input[type='text'] {
+    border: none;
+    width: 450px;
+    height: 32px;
+    outline: none;
+    line-height: 32px;
+    font-size: 17px;
+}
+
+.header-left .search-area .search-btn {
+    background: url('img/sprite__common.png') no-repeat -756px -62px;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    font-size: 0;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 11.5px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right .top-menu {
+    margin-top: 40px;
+}
+
+.header-right .top-menu li {
+    float: left;
+    margin-right: 20px;
+}
+
+.header-right .top-menu li.mypage a {
+    display: block;
+    background: url('img/sprite__common.png') no-repeat -256px -2.5px;
+    background-size: 400px auto;
+    width: 33px;
+    height: 33px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.header-right .top-menu li.recent-list a {
+    display: block;
+    background: url('img/sprite__common.png') no-repeat -296.5px -1px;
+    background-size: 400px auto;
+    width: 36px;
+    height: 36px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.header-right .top-menu li.cart a {
+    display: block;
+    background: url('img/sprite__common.png') no-repeat -336px -0.5px;
+    background-size: 400px auto;
+    width: 40px;
+    height: 37.5px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+footer {
+    background-color: #fafafa;
+}
+
+footer .footer-menu {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+footer .footer-menu .footer-policy {
+    float: left;
+    padding: 16px 0;
+}
+
+footer .footer-menu .footer-policy li {
+    display: inline-block;
+    padding: 0 25px;
+    position: relative;
+}
+
+footer .footer-menu .footer-policy li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 1px;
+    height: 12px;
+    background-color: #d0d0d0;
+}
+
+footer .footer-menu .footer-policy li:first-child::before {
+    display: none;
+}
+
+footer .footer-menu .footer-policy li:first-child {
+    padding-left: 0;
+}
+
+footer .footer-menu .footer-policy li a {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+footer .footer-menu .footer-policy li a strong {
+    color: #067dfd;
+}
+
+footer .footer-menu .seller-service {
+    float: right;
+    padding-top: 9px;
+    position: relative;
+}
+
+footer .footer-menu .seller-service .seller-service-btn {
+    border: 1px solid #d0d0d0;
+    width: 120px;
+    height: 34px;
+    background-color: #fff;
+    text-align: left;
+    text-indent: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+footer .footer-menu .seller-service .seller-service-btn::after {
+    content: '';
+    display: block;
+    background: url('img/sprite__common.png') no-repeat -343.5px -117.5px;
+    background-size: 400px auto;
+    width: 9.5px;
+    height: 5px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .footer-menu .seller-service .seller-service-btn:hover+.seller-service-list-box {
+    display: block;
+}
+
+footer .footer-menu .seller-service .seller-service-list-box {
+    width: 220px;
+    border: 1px solid #666;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0;
+    top: 48px;
+    display: none;
+}
+
+footer .footer-menu .seller-service .seller-service-list li a {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+footer .footer-menu .seller-service .seller-service-list li a:hover {
+    color: #111;
+}
+
+footer .footer-info {
+    border-bottom: 1px solid #d0d0d0;
+    padding-top: 16px;
+}
+
+footer .footer-info .gmarket-info {
+    float: left;
+    width: 580px;
+}
+
+footer .footer-info .gmarket-info h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+footer .footer-info .gmarket-info p {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    color: #757c8a;
+}
+
+footer .footer-info .gmarket-info a {
+    display: inline-block;
+    background: url('img/sprite__common.png') no-repeat -292px -298px;
+    background-size: 400px auto;
+    width: 86px;
+    height: 20px;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+footer .footer-info .customer-service {
+    float: right;
+    padding-right: 60px;
+}
+
+footer .footer-info .customer-service h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+footer .footer-info .customer-service p {
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: -0.5px;
+    color: #757c8a;
+}
+
+footer .footer-info .customer-service em {
+    color: #067dfd;
+    font-style: normal;
+}
+
+footer .footer-link {
+    border-bottom: 1px solid #d0d0d0;
+    padding: 9px 0 18px;
+}
+
+footer .footer-link ul {
+    width: 750px;
+}
+
+footer .footer-link ul li {
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 7px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #94989f;
+    letter-spacing: -0.5px;
+    vertical-align: top;
+    position: relative;
+}
+
+footer .footer-link ul li a::after {
+    content: '';
+    display: block;
+    background: url('img/sprite__common.png') no-repeat -363.5px -115px;
+    background-size: 400px auto;
+    width: 5px;
+    height: 9.5px;
+    position: absolute;
+    right: -10px;
+    bottom: 20%;
+}
+
+footer .footer-link ul li a:nth-child(2)::after {
+    display: none;
+}
