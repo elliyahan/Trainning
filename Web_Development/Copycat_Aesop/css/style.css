@@ -1,0 +1,292 @@
+/* 메인 */
+
+.contents-area .main-banner {
+    height: 653px;
+    background: url(../img/main/mainbanner1.png) no-repeat center / cover;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.contents-area .product-new {
+    /* height: 672px; */
+    background-color: #fffef2;
+}
+
+.contents-area .product-new .inner {
+    text-align: center;
+}
+
+.contents-area .product-new .inner h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #464646;
+    font-weight: bold;
+    padding-top: 130px;
+    margin-bottom: 40px;
+}
+
+.contents-area .product-new .inner .new-wrap {
+    padding-bottom: 92px;
+}
+
+.contents-area .product-new .inner .new-list li {
+    float: left;
+    margin-left: 21px;
+}
+
+.contents-area .product-new .inner .new-list li p:nth-of-type(1) {
+    margin-top: 17px;
+    margin-bottom: 13px;
+    font-size: 12px;
+    color: #333;
+}
+
+.contents-area .product-new .inner .new-list li p:nth-of-type(2) {
+    font-size: 13.5px;
+    color: #666;
+}
+
+.contents-area .product-best {
+    height: 672px;
+    background-color: #465a4f;
+}
+
+.contents-area .product-best .inner {
+    text-align: center;
+}
+
+.contents-area .product-best .inner h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #fffffa;
+    font-weight: bold;
+    padding-top: 109px;
+    margin-bottom: 59px;
+}
+
+.contents-area .product-best .inner .best-list li {
+    float: left;
+    margin-left: 27px;
+}
+
+.contents-area .product-best .inner .best-list li p {
+    color: #fffef2;
+}
+
+.contents-area .product-best .inner .best-list li p:nth-of-type(1) {
+    font-size: 18px;
+    margin-top: 17px;
+}
+
+.contents-area .product-best .inner .best-list li p:nth-of-type(2) {
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+}
+
+.contents-area .product-best .inner .best-list li p:nth-of-type(3) {
+    font-size: 16px;
+}
+
+.contents-area .product-diff {
+    background-color: #fffef2;
+    padding-top: 79px;
+}
+
+.contents-area .product-diff .inner {
+    text-align: center;
+}
+
+.contents-area .product-diff .inner .diff-wrap {
+    padding-bottom: 82px;
+}
+
+.contents-area .product-diff .inner .diff-list {
+    margin-left: 18px;
+}
+
+.contents-area .product-diff .inner .diff-list li {
+    float: left;
+    margin-right: 84px;
+}
+
+.contents-area .product-diff .inner .diff-list li p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 55px;
+    line-height: 1.75;
+}
+
+.contents-area .product-diff .inner h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #464646;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contents-area .store {
+    height: 655px;
+    background-color: #f8f6e5;
+    position: relative;
+}
+
+.contents-area .store .bg-right {
+    position: absolute;
+    width: 50%;
+    height: 655px;
+    left: 50%;
+    top: 0;
+    background-color: #f3f2e9;
+}
+
+.contents-area .store .inner {
+    position: relative;
+    z-index: 1000;
+}
+
+.contents-area .store .store-left {
+    width: 50%;
+    height: 655px;
+    float: left;
+    padding-top: 128px;
+    box-sizing: border-box;
+    padding-left: 37px;
+}
+
+.contents-area .store .store-left h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+    color: #464646;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.contents-area .store .store-left p:nth-of-type(1) {
+    font-size: 38px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.contents-area .store .store-left p:nth-of-type(2) {
+    font-size: 18px;
+    color: #666;
+    line-height: 21px;
+}
+
+.contents-area .store .store-left p:nth-of-type(3) {
+    font-size: 21px;
+    line-height: 36px;
+    color: #666;
+    margin-top: 54px;
+}
+
+.contents-area .store .store-left .store-more {
+    display: block;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #465a4f;
+    margin-left: 146px;
+    margin-top: 79px;
+}
+
+.contents-area .store .store-right {
+    width: 50%;
+    height: 655px;
+    float: right;
+    padding-left: 58px;
+    padding-top: 69px;
+    box-sizing: border-box;
+}
+
+.contents-area .store .store-right .slide-control {
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.contents-area .store .store-right .slide-control button {
+    float: left;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 49px;
+    height: 15px;
+}
+
+.contents-area .store .store-right .slide-control .btn-prev {
+    background: url(../img/main/prev-arrow.png) no-repeat;
+    margin-right: 44px;
+}
+
+.contents-area .store .store-right .slide-control .btn-next {
+    background: url(../img/main/next-arrow.png) no-repeat;
+}
+
+.contents-area .sns {
+    background-color: #fffef2;
+}
+
+.contents-area .sns .inner {
+    text-align: center;
+    padding-bottom: 109px;
+}
+
+.contents-area .sns .inner h2 {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 53px;
+    color: #464646;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-top: 193px;
+    margin-bottom: 66.2px;
+}
+
+.contents-area .sns .inner .sns-list li {
+    float: left;
+    margin-right: 27px;
+}
+
+.contents-area .sns .inner .sns-list li:first-child {
+    margin-left: 20px;
+}
+
+.contents-area .sns .inner .sns-list li p {
+    margin-top: 31.7px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.88;
+}
+
+.contents-area .comment {
+    background-color: #85918a;
+}
+
+.contents-area .comment .inner {
+    text-align: center;
+}
+
+.contents-area .comment .inner p:nth-of-type(1) {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 77px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.44;
+    padding-top: 203px;
+}
+
+.contents-area .comment .inner p:nth-of-type(1) em {
+    font-size: 102px;
+    font-style: oblique;
+}
+
+.contents-area .comment .inner p:nth-of-type(2) {
+    font-size: 36px;
+    line-height: 1.75;
+    margin-top: 66px;
+    padding-bottom: 184px;
+    color: #fff;
+}
