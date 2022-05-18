@@ -1,0 +1,533 @@
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+    /* font-family: 'Noto Sans KR', sans-serif; */
+    
+    html,
+    body {
+        text-size-adjust: none;
+        font-size: 16px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    
+    a {
+        display: block;
+    }
+    
+    body {
+        overflow-x: hidden;
+        /* 약간의 크기 차이 때문에 가로 스크롤이 생기는 경우가 있어서 x축으로 넘어가지 못하게 하려고 설정 */
+    }
+    /* Header */
+    
+    .header {
+        background-color: #242424;
+        height: 70px;
+        position: relative;
+    }
+    
+    .header .logo {
+        width: 150px;
+        height: 70px;
+        margin: auto;
+        text-indent: -9999px;
+        font-size: 0;
+        background: url(../img/icon/text-logo.png) no-repeat center;
+        background-size: auto 31px;
+    }
+    
+    .header .logo a {
+        height: 100%;
+    }
+    
+    .header .home-btn {
+        width: 36px;
+        height: 34px;
+        text-indent: -9999px;
+        font-size: 0;
+        background: url(../img/icon/toplogo.png) no-repeat center / 12px auto;
+        position: absolute;
+        left: 20px;
+        top: 18px;
+    }
+    
+    .header .menu-btn {
+        width: 46px;
+        height: 46px;
+        text-indent: -9999px;
+        font-size: 0;
+        background: url(../img/icon/menu-btn.png) no-repeat center / 29px auto;
+        position: absolute;
+        right: 16px;
+        top: 12px;
+    }
+    
+    .container .main-banner .slider-list li {
+        position: relative;
+    }
+    
+    .container .main-banner .slider-list li img {
+        width: 100%;
+    }
+    
+    .container .main-banner .slider-list li a {
+        position: absolute;
+        width: 38.055vw;
+        height: 10.277vw;
+        background-color: #fff;
+        color: #515151;
+        font-size: 3.888vw;
+        text-align: center;
+        line-height: 10.277vw;
+        bottom: 17.777vw;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .subscribe-area {
+        padding: 12.222vw 0;
+    }
+    
+    .subscribe-area .subscribe-title {
+        font-size: 4.44vw;
+        color: #36373b;
+        line-height: 1.79;
+        margin-bottom: 7.638vw;
+        text-align: center;
+    }
+    
+    .subscribe-area .subscribe-list li {
+        text-align: center;
+        margin-bottom: 3.333vw;
+    }
+    
+    .subscribe-area .subscribe-list img {
+        width: 73.888vw;
+    }
+    
+    .subscribe-area .subscribe_btn {
+        width: 64.722vw;
+        height: 16.388vw;
+        margin: auto;
+        background-color: #36373b;
+        color: #fff;
+        font-size: 4.444vw;
+        text-align: center;
+        line-height: 16.388vw;
+        margin-top: 8.055vw;
+    }
+    
+    .menu-area {
+        background: url(../img/menu-bg.png) no-repeat top center / cover;
+        padding: 16.111vw 4.444vw 14.722vw;
+    }
+    
+    .menu-area .menu-title {
+        color: #fff;
+        text-align: center;
+        font-size: 8.055vw;
+        padding-top: 4.44vw;
+        position: relative;
+    }
+    
+    .menu-area .menu-title::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 10.833vw;
+        height: 1.389vw;
+        background-color: #1da4d9;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .menu-area .menu-title-sub {
+        color: #1da4d9;
+        text-align: center;
+        margin-top: 3.888vw;
+        font-size: 3.750vw;
+    }
+    
+    .menu-area .menu-list {
+        margin-top: 8.888vw;
+        margin-bottom: 13.750vw;
+    }
+    
+    .menu-area .menu-list li {
+        float: left;
+        width: calc(50% - 4.5px);
+        text-align: center;
+    }
+    
+    .menu-area .menu-list li:nth-child(2n+1) {
+        margin-right: 4.5px;
+    }
+    
+    .menu-area .menu-list li:nth-child(2n) {
+        margin-left: 4.5px;
+    }
+    
+    .menu-area .menu-list li a {
+        display: block;
+    }
+    
+    .menu-area .menu-list li a .menu-thum-img img {
+        width: 100%;
+    }
+    
+    .menu-area .menu-list li a .menu-thum-txt {
+        display: block;
+        color: #a1a1a1;
+        font-size: 3.472vw;
+        margin: 4.306vw 0 3.888vw;
+    }
+    
+    .menu-area .menu-list li a .menu-thum-txt strong {
+        display: block;
+        color: #fff;
+        margin-bottom: 2.639vw;
+    }
+    
+    .menu-area .menu-allview-btn {
+        margin: auto;
+        color: #fff;
+        border: solid 1px #464646;
+        background-color: #1da4d9;
+        width: 45.55vw;
+        height: 13.35vw;
+        line-height: 13.35vw;
+        margin-top: 11.66vw;
+        font-size: 3.6vw;
+        text-align: center;
+    }
+    
+    .best-menu {
+        height: 175.278vw;
+        background-color: #ebebeb;
+    }
+    
+    .best-menu .best-title {
+        font-size: 5.555vw;
+        color: #36373b;
+        padding-left: 11.666vw;
+        padding-top: 15.208vw;
+        padding-bottom: 4.166vw;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    .best-menu .best-title::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 10vw;
+        height: 1.528vw;
+        background-color: #36373b;
+        top: 9.514vw;
+        left: 11.667vw;
+    }
+    
+    .best-menu .best-title-sub {
+        padding-left: 11.389vw;
+        color: #5e6068;
+        font-size: 3.542vw;
+        padding-bottom: 4.777vw;
+        box-sizing: border-box;
+    }
+    
+    .best-menu .best-box {
+        width: 90.486vw;
+        height: 124.583vw;
+        background-color: #fff;
+        margin-left: 4.375vw;
+    }
+    
+    .best-menu .best-box img {
+        width: 100%;
+        height: 90.486vw;
+    }
+    
+    .best-menu .best-box .best-name {
+        box-sizing: border-box;
+        padding-top: 4.597vw;
+        padding-left: 8.750vw;
+        padding-bottom: 4.444vw;
+        color: #4b4e54;
+        font-size: 5.347vw;
+        font-weight: bold;
+    }
+    
+    .best-menu .best-box .best-des {
+        display: block;
+        width: 73.611vw;
+        color: #606367;
+        margin-left: 8.333vw;
+        font-size: 3.264vw;
+        line-height: 1.6;
+    }
+    
+    .best-menu .best-btn {
+        text-align: center;
+        padding-top: 6.944vw;
+        box-sizing: border-box;
+    }
+    
+    .best-menu .best-btn button {
+        width: 4.17vw;
+        height: 4.17vw;
+        background-color: #dddddd;
+        border-radius: 50%;
+        margin-right: 4.583vw;
+    }
+    
+    .best-menu .best-btn button.on {
+        background-color: #fff;
+    }
+    
+    .coffee-match {
+        padding: 8.889vw 4.444vw;
+        background-color: #242424;
+        text-align: center;
+    }
+    
+    .coffee-match .match-box {
+        background-color: #fff;
+    }
+    
+    .coffee-match .match-box img {
+        width: 91.111vw;
+    }
+    
+    .coffee-match .match-box .match-info {
+        height: 71.389vw;
+        box-sizing: border-box;
+    }
+    
+    .coffee-match .match-box .match-info h3 {
+        padding-top: 15.417vw;
+        padding-bottom: 8.333vw;
+        color: #575756;
+        font-size: 10.208vw;
+    }
+    
+    .coffee-match .match-box .match-info p {
+        color: #575756;
+        font-size: 3.611vw;
+        line-height: 1.21;
+        padding-bottom: 11.667vw;
+        box-sizing: border-box;
+    }
+    
+    .coffee-match .match-box .match-info a {
+        width: 46.944vw;
+        height: 15.694vw;
+        background-color: #00a1df;
+        color: #fff;
+        line-height: 15.694vw;
+        font-size: 4.306vw;
+        margin: auto;
+    }
+    
+    .store-inner {
+        padding: 8.472vw 4.167vw 15.417vw;
+        text-align: center;
+    }
+    
+    .store .store-inner .store-title {
+        color: #00a1df;
+        font-size: 8.681vw;
+        font-weight: 500;
+        line-height: 1.15;
+        margin-bottom: 9.028vw;
+        text-align: center;
+    }
+    
+    .store .store-inner .store-txt {
+        color: #666;
+        font-size: 4.861vw;
+        margin-bottom: 16.528vw;
+        text-align: center;
+    }
+    
+    .store .store-inner .store-list {
+        margin-left: 10vw;
+    }
+    
+    .store .store-inner .store-list span {
+        display: block;
+        width: 34.444vw;
+        height: 7.778vw;
+        background-color: #afafaf;
+        line-height: 7.778vw;
+        font-weight: bold;
+        font-size: 5.139vw;
+        color: #fff;
+        margin-bottom: 4.444vw;
+        text-align: center;
+    }
+    
+    .store .store-inner .store-list p {
+        font-size: 4.306vw;
+        color: #666;
+        text-align: left;
+        margin-left: 0.417vw;
+        margin-bottom: 9.167vw;
+        font-weight: bold;
+    }
+    
+    .store .store-inner .store-time {
+        margin-left: 10vw;
+    }
+    
+    .store .store-inner .store-time span {
+        display: block;
+        width: 22.361vw;
+        height: 7.917vw;
+        background-color: #afafaf;
+        line-height: 7.917vw;
+        font-weight: bold;
+        font-size: 5.139vw;
+        color: #fff;
+        margin-bottom: 4.861vw;
+    }
+    
+    .store .store-inner .store-time p {
+        color: #666;
+        font-size: 4.306vw;
+        line-height: 1.39;
+        margin-left: 0.139vw;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    .store .store-inner .store-btn {
+        width: 47.083vw;
+        height: 15.556vw;
+        background-color: #00a1df;
+        margin-top: 10.694vw;
+        color: #fff;
+        font-size: 4.306vw;
+        margin-bottom: 13.611vw;
+    }
+    
+    .store .store-inner .store-img-box {
+        width: 83.889vw;
+        height: 76.111vw;
+        background-color: #ebebeb;
+        margin-left: 3.889vw;
+        position: relative;
+    }
+    
+    .store .store-inner .store-img-box img {
+        width: 100%;
+        height: 67.222vw;
+    }
+    
+    .store .store-inner .store-img-box span {
+        display: block;
+        width: 10.694vw;
+        height: 4.722vw;
+        background-color: #00a1df;
+        position: absolute;
+        font-size: 2.431vw;
+        color: #fff;
+        line-height: 4.722vw;
+        top: 2.500vw;
+        right: 2.639vw;
+    }
+    
+    footer .footer-policy {
+        height: 12.639vw;
+        background-color: #00a1df;
+        text-align: center;
+        color: #fff;
+    }
+    /* footer .footer-policy p {
+        font-size: 3.264vw;
+        line-height: 1.34;
+        padding-top: 2.222vw;
+        box-sizing: border-box;
+    } */
+    
+    footer .footer-policy .policy-wrap {
+        width: 78.056vw;
+        margin: auto;
+        text-align: center;
+    }
+    
+    footer .footer-policy .policy-wrap a {
+        float: left;
+        font-size: 3.264vw;
+        line-height: 1.34;
+        padding-top: 1.111vw;
+        margin-right: 4vw;
+        box-sizing: border-box;
+        position: relative;
+    }
+    
+    footer .footer-policy .policy-wrap a:nth-child(3) {
+        margin-right: 0;
+    }
+    
+    footer .footer-policy .policy-wrap a:nth-child(4) {
+        margin-left: 12vw;
+    }
+    
+    footer .footer-policy .policy-wrap a::after {
+        content: '';
+        display: block;
+        width: 0.139vw;
+        height: 3.264vw;
+        background-color: #fff;
+        position: absolute;
+        top: 2vw;
+        right: -2vw;
+    }
+    
+    footer .footer-policy .policy-wrap a:nth-child(3)::after {
+        display: none;
+    }
+    
+    footer .footer-policy .policy-wrap a:nth-child(5)::after {
+        display: none;
+    }
+    
+    footer .footer-nav {
+        background-color: #4d4d4d;
+        padding-left: 4.583vw;
+        padding-bottom: 11.111vw;
+    }
+    
+    footer .footer-nav dl {
+        float: left;
+        margin-top: 9.028vw;
+        margin-right: 5vw;
+    }
+    
+    footer .footer-nav dl:nth-child(3n) {
+        margin-right: 0;
+    }
+    
+    footer .footer-nav dt {
+        font-size: 3.888vw;
+        color: #9bcbde;
+        font-weight: bold;
+        margin-bottom: 9vw;
+    }
+    
+    footer .footer-nav dd {
+        font-size: 3.264vw;
+        color: #fff;
+        margin-top: 3vw;
+    }
+    
+    footer .footer-copy {
+        height: 8.194vw;
+        background-color: #222;
+        text-align: center;
+    }
+    
+    footer .footer-copy p {
+        color: #fff;
+        font-size: 2.500vw;
+        line-height: 8.194vw;
+    }
