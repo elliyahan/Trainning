@@ -1,0 +1,49 @@
+header {
+    background-color: #523737;
+    color: #fff;
+    padding: 5px 10px 15px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    width: 100%;
+}
+
+header .header-top,
+header .header-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .header-col {
+    width: 33.33%;
+}
+
+header .header-col:nth-child(2) {
+    text-align: center;
+}
+
+header .header-col:nth-child(3) {
+    text-align: right;
+}
+
+header .header-top {
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+header .header-bottom {
+    margin: 0 10px;
+}
+
+header .header-bottom .txt-opacity {
+    opacity: .4;
+}
+
+header .header-num {
+    color: #ffe94a;
+}
+
+header .header-bottom .header-col:first {
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}

@@ -1,0 +1,140 @@
+.more {
+    background-color: #f0f0f0;
+}
+
+.more-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #fff;
+}
+
+.more-header .more-header-column {
+    display: flex;
+    align-items: center;
+}
+
+.more-header .more-header-column img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.more-header .more-header-column .more-header-info .more-header-title {
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.more-header .more-header-column .more-header-info .more-header-subtitle {
+    font-size: 12px;
+    color: #b4b4b4;
+}
+
+.more-options {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.more-options .more-option-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-options .more-option-list i {
+    color: #523737;
+}
+
+.more-options .more-option-list span {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #523737;
+}
+
+.more-plus-friends {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.more-plus-friends .more-pf-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.more-plus-friends .more-pf-header .more-pf-title {
+    font-size: 15px;
+}
+
+.more-plus-friends .more-pf-header .more-pf-learnmore {
+    font-size: 14px;
+    color: #b4b4b4;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.more-plus-friends .more-pf-header .more-pf-learnmore i {
+    margin-right: 4px;
+}
+
+.more-pf-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}
+
+.more-pf-items .more-pf-item {
+    width: 50%;
+    padding: 15px 0;
+}
+
+.more-pf-items .more-pf-item i {
+    margin-right: 20px;
+}
+
+.more-pf-items .more-pf-item span {
+    font: 13px;
+    color: #523737;
+}
+
+.more-links {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.more-links .more-link-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.more-links .more-link-item img {
+    width: 50px;
+    height: 50px;
+}
+
+.more-links .more-link-item span {
+    font-size: 12px;
+    color: #523737;
+    margin-top: 10px;
+}
