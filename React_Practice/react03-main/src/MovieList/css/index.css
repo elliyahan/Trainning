@@ -1,0 +1,20 @@
+
+ .gradeinfo{
+     width: 40px;height: 40px;
+     border-radius: 50%;
+     color:#fff;
+     font-size: 14px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .gradeinfo.on12{
+     background-color: rgb(59, 165, 207);
+ }
+ .gradeinfo.onall{
+    background-color: rgb(139, 189, 64);
+
+ }
+ .gradeinfo.on15{
+     background-color: rgb(255, 184, 30);
+ }
