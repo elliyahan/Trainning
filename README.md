@@ -1,4 +1,10 @@
 # Trainning_2022
 
-web publishing + frontend development
-by. elliya han
+## React_Practice
+- React + Javascript
+
+## Typescript_Practice
+- React + Typescript
+
+## Web_Development
+- HTML + CSS + Vanilla JavaScript
