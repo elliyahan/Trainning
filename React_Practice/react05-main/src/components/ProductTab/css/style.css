@@ -1,0 +1,54 @@
+.product-tab {
+    width: 100%;
+    max-width: 1200px;
+    margin: 3.125rem auto;
+}
+
+.tab-btn {
+    display: flex;
+    font-size: 1rem;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+.tab-btn .btn {
+    padding: 0.5rem 0.875rem;
+    border: none;
+    background-color: #fff;
+}
+
+.tab-btn .btn.on {
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-top: 3px solid rgb(255, 11, 84);
+    border-bottom: 3px solid rgb(255, 11, 84);
+    color: rgb(255, 11, 84);
+}
+
+.tab-list .brandTitle {
+    font-size: 1.25rem;
+    color: rgb(255, 11, 84);
+    padding: 1rem 3.125rem;
+    text-transform: capitalize;
+}
+
+.tab-list .tab {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+
+.tab-list .tab li {
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.tab-list .tab li img {
+    height: 150px;
+    width: auto;
+    max-width: 200px;
+}
