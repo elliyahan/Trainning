@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import styled from 'styled-components';
 import { Switch, Route, BrowserRouter } from 'react-router-dom';
 
-const Wrapper = styled.div `
+const Wrapper = styled.div`
   width: 100%;
   height: 100vh;
   display: flex;
@@ -12,21 +12,21 @@ const Wrapper = styled.div `
   background: #eee;
 `;
 
-const Box = styled.div `
+const Box = styled.div`
   width: 400px;
   height: 600px;
   background: #fff;
   box-shadow: 0px 25px 100px -60px rgba(0, 0, 0, 0.18);
 `;
 
-const Title = styled.h1 `
+const Title = styled.h1`
   margin: 0;
   padding: 15px 25px;
 `;
 
-const TodoList = styled.div ``;
+const TodoList = styled.div``;
 
-const TodoItem = styled.div `
+const TodoItem = styled.div`
   display: flex;
   align-items: center;
   padding: 15px 25px;
@@ -35,7 +35,7 @@ const TodoItem = styled.div `
   border-bottom: 1px solid #eee;
 `;
 
-const TodoCheck = styled.input `
+const TodoCheck = styled.input`
   margin-right: 15px;
 `;
 
